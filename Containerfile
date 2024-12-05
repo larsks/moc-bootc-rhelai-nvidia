@@ -8,6 +8,6 @@ RUN dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(r
   dnf -y install nvtop && \
   dnf clean all
 
-RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
+RUN curl -sSf -O https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py && \
     rm -f get-pip.py
