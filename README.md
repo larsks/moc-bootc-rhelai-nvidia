@@ -1,4 +1,4 @@
-# rhelai-nvidia 1.2 for bare metal
+# rhelai-nvidia for bare metal
 
 This is exactly like `registry.redhat.io/rhelai1/bootc-nvidia-rhel9:1.1`,
 except that the service that grows the root partition to fill available space
