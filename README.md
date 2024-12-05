@@ -1,9 +1,9 @@
 # rhelai-nvidia for bare metal
 
-This is exactly like `registry.redhat.io/rhelai1/bootc-nvidia-rhel9:1.1`,
-except that the service that grows the root partition to fill available space
-runs on bare metal machines (in the original image, it only runs on virtual
-hosts).
+This is exactly like `registry.redhat.io/rhelai1/bootc-nvidia-rhel9`, except
+that (a) the service that grows the root partition to fill available space runs
+on bare metal machines (in the original image, it only runs on virtual hosts)
+and (b) we install a few additional packages.
 
 To generate a qcow2 image from this repository:
 
